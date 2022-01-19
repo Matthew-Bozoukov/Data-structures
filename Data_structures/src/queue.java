@@ -44,6 +44,7 @@
 		queue<Integer> qu = new queue<Integer>(st1, st2);
 		qu.add(1);
 		qu.add(2);
+		qu.remove();
 		
 		
 	}

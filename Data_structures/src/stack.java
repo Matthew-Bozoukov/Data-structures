@@ -36,9 +36,17 @@ private int size; // # of elements
 	}
 	public String toString() {
 		
-		return data.get(data.size())+ "";
+		return data.get(data.size()-1)+ "";
 	}
+	//public void main(String[] //args) {
+			// TODO Auto-generated method stub
+			//add lines of code to test implementation of stack works
+			
+			//stack st = new stack();
+			//st.toString();
+		
 }
+
 
 
 
