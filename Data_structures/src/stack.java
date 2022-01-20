@@ -20,8 +20,12 @@ private int size; // # of elements
 	}
 	public T pop() {
 		 //remove and return the element
+		T temp = data.get(size-1);
+		
 		data.remove(size-1);
-		return data.get(size-1);
+		size-=1;
+		return temp;
+		
 
 		//update other relevant info
 		
@@ -36,16 +40,26 @@ private int size; // # of elements
 	}
 	public String toString() {
 		
-		return data.get(data.size()-1)+ "";
+		return data.get(data.size()-1)+ " ";
 	}
-	//public void main(String[] //args) {
+	//public static void main(String[] args) {
 			// TODO Auto-generated method stub
 			//add lines of code to test implementation of stack works
 			
-			//stack st = new stack();
-			//st.toString();
+			//stack<Integer> st = new stack<Integer>();
+		//st.push(1);
+			//st.push(8);
+			//st.push(9);
+			//st.push(10);
+			//st.pop();
+			//st.pop();
+			//st.pop();
+			
+			
+			//System.out.println(st);
 		
 }
+//}
 
 
 
@@ -61,6 +75,8 @@ private int size; // # of elements
 		
 		//stack st = new stack();
 		//st.toString();
+	
+
 	
 		
 
